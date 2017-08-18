@@ -20,7 +20,7 @@ function displayAnimal() {
 			pOne = $("<p>").text("Rating: " + rating);
 			animalDiv.append(pOne);
 
-			imgURL = response.data[i].url;
+			imgURL = response.data[i].images.downsized_medium.url;
 			image = $("<img>").attr("src", imgURL);
 			animalDiv.append(image);
 
