@@ -20,7 +20,7 @@ function displayAnimal() {
 			pOne = $("<p>").text("Rating: " + rating);
 			animalDiv.append(pOne);
 
-			imgURL = response.data[i].bitly_url;
+			imgURL = response.data[i].url;
 			image = $("<img>").attr("src", imgURL);
 			animalDiv.append(image);
 
