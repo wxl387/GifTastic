@@ -3,19 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>GifTastic</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet" type="text/css"> -->
 </head>
 <body>
-	<div id="btnView"></div>
-
-	<div id="animalView"></div>
-	
-	<form id="animalForm">
-		<label for="animalInput">Add an animal</label><br>
-		<input type="text" id="animalInput"><br>
+	<div class="container container-fluid">
 		
-		<input id="addAnimal" type="submit" value="submit">
-	</form>
+		<div class="row">
+			<div class="col-md-12>">
+				<div id="btnView">
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-8">
+				<div id="animalView">
+				</div>							
+			</div>
+		
+			<div class="col-md-4">
+				<form id="animalForm">
+						<label for="animalInput">Add an animal</label><br>
+						<input type="text" id="animalInput"><br>	
+						<input class="btn btn-default" id="addAnimal" type="submit" value="submit">
+				</form>
+			</div>
+		</div>
+	</div>
 
 	
 
